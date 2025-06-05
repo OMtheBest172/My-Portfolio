@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Ayush Gupta" />
+    
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Ayush Gupta, Ayush Gupta, Ayush Gupta Open Minds,
+        Ayush Gupta OMK, Ayush Gupta, Ayush
+        Gupta Patna, Ayush Gupta New Delhi, Ayush
+        Gupta UP, Ayush Gupta Bihar, Ayush Gupta NASA,
+        Ayush Gupta, Ayush Gupta Website"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Ayush Gupta</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <script>
+  function showSection(sectionId) {
+    const sections = ['projects', 'research', 'thought'];
+    sections.forEach(id => {
+      document.getElementById(id + '-section').style.display = (id === sectionId) ? 'block' : 'none';
+    });
+  }
+    
+</script>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Ayush Gupta</span>
+          <span class="site-description">Lives in superpostion with all STEM fields🧑‍🔬</span>
+          <!--<small class = "site-description">Multi-disciplinary thinker living at the edge of AI, physics, and theory.</small> -->
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="http://www.linkedin.com/in/ayush-gupta-678689209">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/OMtheBest172">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:omthebest172@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+        
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          As a motivated 17-year-old student who just passed 12th grade, I am deeply driven by curiosity and the pursuit of interdisciplinary research and exploration. 
+          With a solid foundation in 3D design developed over three years, 
+           I’ve developed a strong foundation in 3D designs and currently, my academic pursuits have led me to delve into Quantum Mechanics, Quantum Computing and Electronics,
+           where I am actively expanding my knowledge of cutting-edge technologies. My research interests are very broad and evolving (from laser-plasma to AI)In addition to my primary interests, I also possess
+            intermediate skills in electronics and Arduino microcontrollers. This diverse skill set empowers me to
+            approach complex problems with a multifaceted perspective, driving continuous growth and learning in the tech and scientific domains. I enjoy formulating thought experiments, publishing daily "thought papers" to track
+             the evolution of my ideas, and challenging conventional boundaries between science, art, and engineering.
+            <b>My goal is not just to study what exists but to explore what could exist.</b> I’m always open to connecting with like-minded thinkers, researchers, and creators.
+        </p>
+          <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0009-0004-6303-4248"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
+      My ORCID ID
+    </a>
+      </div>
+<!---------------------------------------------------- -->
+  
+<!---------------------------------------------------- -->
+    <!-- Projects Section -->
+
+    <div class="user-details">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <button onclick="showSection('projects')" class="toggle-btn">Projects</button>
+    <button onclick="showSection('research')" class="toggle-btn">Research Papers </button>
+    <button onclick="showSection('thought')" class="toggle-btn">Thought Papers</button>
+    
+  </div>
+<section id="projects">
+  <div id="projects-section" class="toggle-section">
+    <h2><u>Projects</u></h2>
+    <!-- <p>List your projects here.</p> -->
+  <!-- Left: Text -->
+ <div class="project-container">
+  <div class="project-text">
+    <h2>1. EEG Sensor</h2>
+    <p>
+      A brainwave monitoring EEG sensor made with Operational Amplifiers, Arduino and some electrodes showing real-time neural activity.
+      However, its accuracy is lower than traditional EEG systems and the data is a bit inconsistent, but this was a fun project that taught me a lot.
+    </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/CFO-RZE1-k0?si=ugaexXIe1J1FiW4X"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->
+ <div class="project-container">
+   <div class="project-text">
+     <h2>2. Robotic Claw</h2>
+    <p>
+      A robotic claw with gyro sensors, however i did not finsih this project.
+    </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/AiJ-woD7Qk0?si=i1naQU2U6qwAe7WJ"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->   
+
+ <!----------------------------------------------->
+ <div class="project-container">
+  <div class="project-text">
+    <h2>3. EMG Sensor</h2>
+    <p>
+      A basic EMG sensor that measures the electrical activity in muscles. Made with Operational Amplifiers, Arduino and electrodes (made with coins)
+     </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/xXUzmjgKQHw?si=Nb5FZn_tXgwPUc-v"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->   
+
+ <!----------------------------------------------->
+ <div class="project-container">
+  <div class="project-text">
+    <h2>4. Study Timer</h2>
+    <p>
+      A study timer that runs on Arduino and says "mission accomplished good work" when the timer stops
+     </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/Qp0ZUQNlQ9I"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->   
+
+ <!----------------------------------------------->
+ <div class="project-container">
+  <div class="project-text">
+    <h2>5. Bloch Sphere Simulation using Qiskit and Blender</h2>
+    <p>
+      This visualization helps to understand the state of a qubit in 3D space and it taught me many things like quaternion number system too.
+     </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/FycHOUcx7H0"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->   
+ 
+ <div class="project-container">
+  <div class="project-text">
+    <h2>6. Virtual Keyboard</h2>
+    <p>
+      Made With Open CV And Python, How it works - There is a motion tracking program running which tracks the movement of hand and fingers.
+If the distance between my middle finger and index finger is less then it triggers a command to press the button in which my hand is hovering.
+
+     </p>
+  </div>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/-qmPP60KzJA"
+      title="EEG Demo"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+ </div>
+ <!----------------------------------------------->    
+
+  </div>
+</section>
+<section id="research">
+  <div id="research-section" class="toggle-section" style="display: none;">
+    <h2><u>Research Papers</u></h2>
+    <p>Here are some research papers I wrote</p>
+<!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >1.Interaction of Laser Diffraction Intensity Through High
+Voltage Plasma Interaction: An Experimental Study</h3>
+    <p>
+      This experiment investigates the effect of plasma generated at a single
+slit on the diffraction pattern of a laser beam.  The results indicated a very slight deflection in the intensity
+of fringes when plasma was introduced. This tells us that the presence
+of ionized gas alters the refractive index in the region of the slit. This
+may be due to the fact that plasma might be inducing oscillations or
+disturbances within the laser’s interaction zone.
+
+    </p>
+    <p>This paper is also published in <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4980804">Plasma Physics eJournal (SSRN), Vol. 2, Issue 45</a></p>
+    <a href="https://zenodo.org/records/13906164" target="_blank">Read The Full Paper on Zenodo.org</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/img1.jpg" alt="Paper Cover" />
+  </div>
+</div>
+<!----------------------------------------------->  
+<!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >2.A Framework for Creative Problem-Solving in AI Inspired by Neural Fatigue Mechanisms</h3>
+    <p>
+      This paper introduces a fresh theoretical framework for creating AI systems based on Spiking Neural Network (SSN) Architecture, designed to match human-like
+       creative problem-solving. This framework utilizes the principle of Neural Fatigue caused by saturation of commonly used neural pathways which forces it to use the underutilized neural pathways that facilitate creative solutions.
+    </p>
+    <a href="https://zenodo.org/records/15249136" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/img2.jpg" alt="Paper Cover" />
+  </div>
+</div>
+<!----------------------------------------------->  
+<!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >3.Cosmic Inflation and the Incense Stick Analogy: A Thought Experiment</h3>
+    <p>
+      This paper talks about a thought experiment that not only illustrates this idea but also hints about the
+       possibilities that there could be more than the big bang than we know it.
+    </p>
+    <a href="https://zenodo.org/records/14174477" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/img3.jpg" alt="Paper Cover" />
+  </div>
+ </div>
+ <!----------------------------------------------->  
+</section>
+
+    
+  </div>
+
+  <div id="thought-section" class="toggle-section" style="display: none;">
+    <h2><u>Thought Papers</u></h2>
+    <p>Here are some Thought Papers I wrote</p>
+
+    <!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >1.The Photon-Train</h3>
+    <p>
+     What if photons could see? Electromagentic field is 4 dimensional?
+    </p>
+    <a href="https://www.academia.edu/129705278/The_Photon_Train" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/photon-train.jpg" alt="Paper Cover" />
+  </div>
+</div>
+<!----------------------------------------------->  
+    <!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >2. Spider Dances Through the Web</h3>
+    <p>
+     About a Spider weaving its web
+    </p>
+    <a href="https://www.academia.edu/129575315/Spider_Dances_Through_the_Web" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/3.jpg" alt="Paper Cover" />
+  </div>
+</div>
+<!----------------------------------------------->  
+    <!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >3.The Tree and the Uncertainty</h3>
+    <p>
+     A Balcony Thought on Observation, Uncertainty, and the Nature of Perception
+    </p>
+    <a href="https://www.academia.edu/129598183/The_Tree_and_the_Uncertainty" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/treeobs.png" alt="Paper Cover" />
+  </div>
+</div>
+<!----------------------------------------------->  
+    <!----------------------------------------------->    
+<div class="paper-entry">
+  <!-- Left: Title and Description -->
+  <div class="paper-text">
+    <h3 >4. A beautiful patterns of Clouds</h3>
+    <p>
+     Recreating patterns of cloud
+    </p>
+    <a href="https://www.academia.edu/129551922/A_beautiful_patterns_of_Clouds" target="_blank">Read The Full Paper</a>
+  </div>
+
+  <!-- Right: Cover Image -->
+  <div class="paper-image">
+    <img src="./assets/projj/img8.jpg" alt="Paper Cover" />
+  </div>
+</div>
+
+<!----------------------------------------------->  
+  </div>
+</div>
+
+    <footer class="footer">
+      <p>&copy; Ayush Gupta, 2025</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
